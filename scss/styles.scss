@@ -31,9 +31,7 @@ right: 20px;
 .icons-social i:not(:last-child) {
   margin-right: 15px;
 }
-#navigation {
-  width: 99.5%;
-}
+
 
 .subscribe a {
   color: white;
@@ -66,4 +64,17 @@ header i {
 }
 .container {
   padding: 0px;
+}
+
+.photoGuy {
+  position: relative;
+  height: 20vw;
+  min-height: 300px;
+  overflow: hidden;
+  background-image: url("../img/top-image.png");
+  background-repeat: no-repeat;
+  background-position: 35% 25%;
+  border: solid 4pt white;
+  box-shadow: 0px 5px 0px 0px rgba(158,158,158,0.42);
+
 }

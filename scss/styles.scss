@@ -77,4 +77,18 @@ header i {
   border: solid 4pt white;
   box-shadow: 0px 5px 0px 0px rgba(158,158,158,0.42);
 
+
+}
+
+.sk8news .col-md{
+  background-color: white;
+  color: black;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 8pt solid white;
+
+}
+.sk8news .col-md:not(:last-child) {
+  margin-right: 10px;
 }

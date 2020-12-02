@@ -1,0 +1,363 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  background-image: url("../images/bg.jpg");
+  background-size: auto;
+  font-size: 16px;
+}
+
+.social-media-header {
+  width: 100%;
+  height: 65px;
+}
+
+.icons-social {
+  text-align: right;
+  right: 20px;
+}
+
+.icons-social i {
+  width: 15%;
+  text-align: center;
+  font-size: 3em;
+  margin-top: 10px;
+}
+
+.icons-social i:not(:last-child) {
+  margin-right: 15px;
+}
+
+.subscribe a {
+  color: white;
+  top: 40%;
+  right: 50px;
+  position: absolute;
+  font-style: none;
+  color: white;
+}
+
+.subscribe a:hover {
+  text-decoration: none;
+}
+
+nav div .col-md {
+  color: white;
+  background-color: #A63634;
+  text-align: center;
+  margin-bottom: 10px;
+  box-shadow: 0px 5px 0px 0px rgba(158, 158, 158, 0.42);
+}
+
+nav div .col-md:not(:last-child) {
+  margin-right: 10px;
+}
+
+header i {
+  font-size: 3em;
+  text-align: right;
+}
+
+.container {
+  padding: 0px;
+}
+
+#carousel {
+  position: relative;
+  height: 20vw;
+  min-height: 300px;
+  overflow: hidden;
+  background-image: url("../images/top-image.png");
+  background-repeat: no-repeat;
+  background-position: 35% 25%;
+  border: solid 10px white;
+  box-shadow: 0px 5px 0px 0px rgba(158, 158, 158, 0.42);
+}
+
+#carousel > .grid {
+  opacity: 0.3;
+}
+
+#carousel > .logopic {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 25rem;
+}
+
+@media (min-width: 768px) {
+  #carousel > .logopic {
+    left: 3%;
+    transform: translateY(-50%);
+  }
+}
+.photoGuy {
+  position: relative;
+}
+
+section:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.logopic {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+}
+
+button {
+  margin-left: 75px;
+  color: red;
+}
+
+.sk8news .col-md {
+  background-color: white;
+  color: black;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 8pt solid white;
+}
+
+.sk8news .col-md:not(:last-child) {
+  margin-right: 10px;
+}
+
+
+
+.skateboarder_lance {
+
+  margin-right: 20px;
+  border:solid;
+  border-color: white;
+  height: auto;
+}
+
+.skateboarder_steve {
+
+  max-height: 300px;
+  overflow: hidden;
+  object-fit: contain;
+  border: solid;
+  border-color: white;
+  object-fit: cover;
+
+
+
+
+}
+.sk8-div {
+
+
+}
+
+.skateboarder_rodney {
+  height: auto;
+  border:solid;
+  border-color: white;
+
+}
+
+.w-100 {
+  height: 15px;
+}
+
+.skateboarders span {
+  position: absolute;
+  text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.skateboarder_tommy {
+  border: solid;
+  border-color: white;
+  width:100%;
+
+
+}
+
+#skateboards {
+  background: #fff;
+  padding: 20px;
+  border-color: #fff;
+  position: relative;
+  border: solid;
+  border-color: #A63634;
+  border-width: 10px;
+  box-shadow: 0px 5px 0px 0px rgba(158, 158, 158, 0.42);
+}
+
+.skateboard-image {
+  position: relative;
+  transform-origin: top left;
+  transform: rotate(90deg) translateY(-25%);
+  height: 260px;
+  width: 65px;
+}
+
+.skateboard-image img {
+  width: 260px;
+  height: 65px;
+  top: 0;
+}
+.tom {
+
+
+}.steve-img {
+height: 280px;
+margin-bottom: 20px;
+}
+.rodney-img {
+  margin-bottom: 20px;
+}
+.lance-img {
+  margin-bottom: 20px;
+}
+.tommy-img {
+  margin-bottom: 20px;
+}
+.skateboarders img {
+  border: 4pt solid white;
+  height: 100%;
+  box-shadow: 0px 7px 0px 0px rgba(158,158,158,0.42);
+}
+.skateboarders {
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 600px) {
+
+
+.steve-img {
+height: 280px;
+margin-bottom: 20px;
+}
+.rodney-img {
+  margin-bottom: 20px;
+}
+.lance-img {
+  margin-bottom: 20px;
+}
+.tommy-img {
+  margin-bottom: 20px;
+}
+.skateboarders img {
+  border: 4pt solid white;
+  height: 100%;
+
+}
+.skateboarders {
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 600px) {
+  #skateboarder-name-l {
+    color: black;
+    position: absolute;
+    font-size: 10px;
+    font-weight: 900;
+    left: 0%;
+    text-align: center;
+    bottom: 20%;
+  }
+  #skateboarder-name-r {
+    color: white;
+    position: absolute;
+    font-size: 42px;
+    font-weight: 900;
+    left: 50%;
+    bottom: 20%;
+    text-align:center;
+  }
+  #skateboarder-name-s {
+    color: white;
+    position: absolute;
+    font-size: 44px;
+    font-weight: 900;
+    left: 17%;
+    bottom: 40%;
+    text-align: center;
+  }
+  #skateboarder-name-t {
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 900;
+    left: 0%;
+    bottom: 50%;
+    text-align: center;
+
+  }
+
+}
+#skateboarder-name-l {
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 900;
+  left: 15%;
+  text-align: center;
+  bottom: 40%;
+}
+#skateboarder-name-r {
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 900;
+  left: 15%;
+  bottom: 40%;
+  text-align:center;
+}
+#skateboarder-name-s {
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 900;
+  left: 32%;
+  bottom: 40%;
+  text-align: center;
+}
+#skateboarder-name-t {
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 900;
+  left: 12%;
+  bottom: 50%;
+  text-align: center;
+
+}
+.contact-box {
+  margin-top: 30px;
+  background-color: white;
+  padding: 40px;
+  margin-bottom: 15px;
+  box-shadow: 0px 7px 0px 0px rgba(158,158,158,0.42);
+}
+
+
+.contact {
+  padding-right: 100px;
+  background-color: white;
+  color: white;
+}
+
+.contact-info {
+  padding: 30px;
+  color: white;
+  margin-bottom: 100px;
+}
+
+/*# sourceMappingURL=styles.css.map */
